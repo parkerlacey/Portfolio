@@ -291,6 +291,7 @@ footer h2 {
         margin-top: 0.25px;
         background-size: cover;
         background-position: center;
+        border-bottom: 3px  solid rgb(0, 102, 255);;
     }
 }
 
