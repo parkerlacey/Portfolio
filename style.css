@@ -1,9 +1,11 @@
+/*I am somewhat confused on what I am supposed to be comnmenting, it all seems pretty self-explanatory*/
+/*Universal selector*/
 *, ::before, ::after {
     box-sizing: border-box;
     border-style: solid;
     border-width: 0;
 }
-
+/*Designs for the entire html unless specified otherwise*/
 html {
     line-height: 1.15;
     font-size: 16px;
@@ -57,7 +59,7 @@ main h2 {
     padding: 20px 25px 10px 25px;
     border-bottom: solid rgb(0, 102, 255);
 }
-
+/*Designs for the profile pic*/
 #profile-pic {
     display: flex;
     flex-direction: row;
@@ -121,7 +123,7 @@ figure img {
     width: 275px;
 }
 
-
+/*Designs for the captions of the images*/
 figcaption {
     text-align: center;
     max-width: 70%;
@@ -133,11 +135,7 @@ figcaption {
     background-color: rgb(15, 107, 187);
     font-family: 'Courier New', Courier, monospace;
 }
-
-#small-caption {
-    font-size: 1rem;
-}
-
+/*Designs for the contact me portion of the website*/
 #contact-me {
     background-color: aliceblue;
     display: block;
@@ -155,6 +153,7 @@ figcaption {
     margin-right: auto;
 }
 
+/*Designs for the footer or the bottom of the website*/
 footer {
     background-color: aliceblue;
     text-align: center;
@@ -166,6 +165,7 @@ footer h2 {
     font-size: 1rem;
 }
 
+/*Optimizing the code for desktop screens*/
 @media screen and (min-width: 1394px) {
     header {
        display: flex;
@@ -194,7 +194,7 @@ footer h2 {
         justify-self: end;
         justify-items: end;
     }
-
+    /*Designs for the page title*/
     #page-title {
         flex-direction: column;
         align-content: center;
@@ -246,7 +246,7 @@ footer h2 {
         min-width: 75%;
         min-height: 400px;
     }
-
+    /*Designs for the main project, making sure it is the biggest out of all of them*/
     #big-project {
         display: block;
         width: 100%;
@@ -256,7 +256,7 @@ footer h2 {
         margin-right: auto;
         margin-top: 20px;
     }
-
+    /*Designs for the images*/
     figure img {
         border: 3px solid rgb(0, 102, 255);
         min-height: 200px;
@@ -269,6 +269,7 @@ footer h2 {
         color: blue;
     }
     
+    /*The design for the caption of the pictures */
     figcaption {
         max-width: 70%;
         position: relative;
